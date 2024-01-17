@@ -1399,6 +1399,52 @@ ul.footer_social li i {
   transition: all 0.3s ease-in-out;
 }
 
+.career-contactus {
+  text-align: center;
+  padding: 100px;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.career-contactus h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.career-contactus h2::after {
+  content: "";
+  position: absolute;
+  top: 120%;
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background: #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.career-contactus p {
+  font-size: 15px;
+  width: 70%;
+  margin-inline: auto;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.career-contact-btn {
+  background: white;
+  color: #111111;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  display: inline-block;
+}
+.career-contactus::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(41, 50, 143, 0.678);
+  z-index: -1;
+}
+
 /********  Copyright  ********/
 
 .footer-bottom-links {
