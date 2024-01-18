@@ -504,10 +504,145 @@ section {
   border-radius: 10px;
 }
 
+/* Toast message */
+
+.toast-container {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  z-index: 1000;
+  transform: translateX(100%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.36, 1.24, 0.93, 1.25);
+}
+
+.show-toast {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.toast-box {
+  background: white;
+  padding: 15px 50px 15px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid gray;
+}
+
+.toast-messages {
+  flex: 1;
+}
+
+.toast-head {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.toast-detail {
+  font-size: 14px;
+}
+
+.toast-cross {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.toast-cross img {
+  width: 12px;
+}
+
+.toast-icon {
+  background: rgba(128, 128, 128, 0.089);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toast-icon img {
+  width: 20px;
+  display: none;
+}
+
+.toast-detail {
+  margin: 0;
+}
+
+.toast-success .toast-head {
+  color: #379a43;
+}
+
+.toast-success .toast-icon {
+  background: hsla(127, 47%, 41%, 0.1);
+}
+
+.toast-error .toast-head {
+  color: #b72525;
+}
+
+.toast-error .toast-icon {
+  background: rgba(183, 37, 37, 0.1);
+}
+.toast-warning .toast-head {
+  color: #fd7a0c;
+}
+
+.toast-warning .toast-icon {
+  background: rgba(253, 122, 12, 0.1);
+}
+.toast-info .toast-head {
+  color: #1561fc;
+}
+
+.toast-info .toast-icon {
+  background: rgba(21, 97, 252, 0.1);
+}
+
+.toast-success {
+  border-color: #379a43;
+}
+.toast-error {
+  border-color: #b72525;
+}
+.toast-info {
+  border-color: #1561fc;
+}
+.toast-warning {
+  border-color: #fd7a0c;
+}
+
+.toast-success .toast-icon .success-icon {
+  display: block;
+}
+.toast-error .toast-icon .error-icon {
+  display: block;
+}
+.toast-warning .toast-icon .warning-icon {
+  display: block;
+}
+.toast-info .toast-icon .info-icon {
+  display: block;
+}
+
 /* TopBar */
 
 .topbar {
   background: #29328f;
+  text-align: center;
+  color: white;
+  padding: 14px;
+}
+.topbar p {
+  margin-bottom: 0;
 }
 
 .marquee-container {
