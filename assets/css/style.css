@@ -223,7 +223,7 @@ section {
   background-repeat: no-repeat;
   background-position: top;
   background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slider_sec .slider_info {
@@ -646,6 +646,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .popup-box {
@@ -656,15 +657,14 @@ section {
 }
 
 @keyframes fade-in-and-grow {
-  0%{
+  0% {
     transform: scale(0);
     opacity: 0;
   }
-  100%{
+  100% {
     transform: scale(1);
     opacity: 1;
   }
-  
 }
 
 .popup-content {
