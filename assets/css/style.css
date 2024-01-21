@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900);
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 body {
   padding: 0;
@@ -701,14 +702,34 @@ section {
 /* TopBar */
 
 .topbar {
-  background: #29328f;
-  text-align: center;
   color: white;
   padding: 20px;
+  padding-bottom: 0;
 }
-.topbar p {
-  margin-bottom: 0;
-  font-size: 20px;
+
+.topbar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-intro {
+  flex: 1;
+}
+
+.navbar-brand {
+  flex-basis: 12%;
+}
+
+.brand-info {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.brand-slogan {
+  font-family: "Caveat", cursive;
+  font-size: 44px;
+  gap: 5px;
 }
 
 .marquee-container {

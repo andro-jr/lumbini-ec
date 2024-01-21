@@ -85,6 +85,13 @@
     font-size: 18px;
     line-height: 24px;
   }
+  .brand-info {
+    font-size: 40px;
+  }
+
+  .brand-slogan {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 1030px) {
@@ -435,6 +442,39 @@
   .footer_detail_4 {
     padding: 95px 0 0 0;
   }
+
+  header {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_sec {
+    width: auto;
+  }
+
+  .brand-info {
+    font-size: 32px;
+  }
+
+  .brand-slogan {
+    font-size: 26px;
+  }
+
+  .navbar-brand {
+    flex-basis: 20%;
+  }
+  .topbar-container {
+    gap: 0;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 150px;
+  }
 }
 @media (max-width: 767px) {
   section {
@@ -672,6 +712,22 @@
   .career-contactus {
     padding: 50px 15px;
   }
+
+  .topbar {
+    padding: 0;
+  }
+
+  .brand-info {
+    font-size: 28px;
+  }
+
+  .brand-slogan {
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    flex-basis: 25%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -803,6 +859,26 @@
   }
   .instagram_sec .owl-carousel.owl-drag .owl-item {
     padding: 0;
+  }
+
+  header {
+    margin-top: 20px;
+    gap: 2px;
+  }
+
+  .navbar-brand {
+    margin-right: 5px;
+  }
+
+  .brand-info {
+    font-size: 18px;
+    margin-bottom: 4px;
+    line-height: 20px;
+  }
+
+  .brand-slogan {
+    font-size: 16px;
+    line-height: 14px;
   }
 }
 @media (max-width: 480px) {
