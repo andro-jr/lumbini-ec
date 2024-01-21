@@ -268,3 +268,14 @@ if (fileInputs) {
     });
   });
 }
+
+// index popup
+
+const popupCross = document.querySelector(".popup-cross");
+const popup = document.querySelector("#popup");
+
+if (popupCross && popup) {
+  popupCross.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+}
