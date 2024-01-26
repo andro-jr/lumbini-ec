@@ -1,3 +1,9 @@
+@media (max-width: 1600px) {
+  .brand-info {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 1366px) {
   .slider_sec .owl-carousel .owl-nav button.owl-prev {
     left: 15px;
