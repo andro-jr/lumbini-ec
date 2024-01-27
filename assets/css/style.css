@@ -1754,6 +1754,7 @@ ul.footer_social li i {
 
 .inner_banner {
   width: 100%;
+  padding-bottom: 30px;
   height: 50vh;
   margin: 0;
   background-position: center center;
@@ -2158,6 +2159,21 @@ ul.c_info li i {
 
 .radio-row label {
   margin-bottom: 0;
+}
+
+.detail li {
+  font-size: 15px;
+  color: #868686;
+  line-height: 24px;
+  font-weight: 300;
+}
+.detail li::marker {
+  color: #5bc86d;
+  font-size: 20px;
+}
+.detail ul {
+  margin: 20px 0 30px 30px;
+  padding: 0 0 0 10px;
 }
 
 /* Chrome, Safari, Edge, Opera */
