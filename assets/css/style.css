@@ -710,25 +710,23 @@ section {
 .topbar-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
-.topbar-intro {
-  flex: 1;
-}
-
 .navbar-brand {
-  flex-basis: 12%;
+  flex-basis: 10%;
 }
 
 .brand-info {
   font-size: 48px;
   font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .brand-slogan {
-  font-family: "Caveat", cursive;
-  font-size: 44px;
+  font-style: italic;
+  font-size: 24px;
   gap: 5px;
 }
 
@@ -2161,17 +2159,17 @@ ul.c_info li i {
   margin-bottom: 0;
 }
 
-.detail li {
+.coursedetail li {
   font-size: 15px;
   color: #868686;
   line-height: 24px;
   font-weight: 300;
 }
-.detail li::marker {
+.coursedetail li::marker {
   color: #5bc86d;
   font-size: 20px;
 }
-.detail ul {
+.coursedetail ul {
   margin: 20px 0 30px 30px;
   padding: 0 0 0 10px;
 }
