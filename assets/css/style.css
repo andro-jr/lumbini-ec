@@ -2306,6 +2306,11 @@ input[type="number"] {
   font-weight: 600;
 }
 
+.dept_sec .dept_block img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
 .dept_sec .dept_block p {
   margin: 0 0 10px;
   padding: 0;
@@ -2445,7 +2450,83 @@ input[type="number"] {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
-  -webkit-column-gap: 1.25rem;
-  -moz-column-gap: 1.25rem;
-  column-gap: 30px;
+  column-gap: 0;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: stretch;
+}
+
+.owl-carousel .owl-stage .item,
+.owl-carousel .owl-stage .story_block {
+  height: 100%;
+}
+
+.story_block p {
+  margin-bottom: 0;
+}
+
+.gallery_sec .card figure {
+  height: 100%;
+}
+
+.gallery_sec .card figure img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery_sec .card {
+  padding: 15px;
+}
+
+.table td,
+.table th {
+  padding: 20px 5px;
+  vertical-align: middle;
+}
+
+.coursedetail p {
+  width: 100%;
+}
+
+.coursedetail h1,
+h2,
+h3,
+h4,
+h5 {
+  width: 100%;
+}
+
+.coursedetail li {
+  font-size: 15px;
+  color: #868686;
+  line-height: 24px;
+  list-style-type: disc;
+  font-weight: 300;
+}
+
+.coursedetail li::marker {
+  color: #5bc86d;
+  font-size: 20px;
+}
+
+.coursedetail ul {
+  margin: 20px 0 30px 30px;
+  padding: 0 0 0 10px;
+}
+.icon-img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+.story_block img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
 }
