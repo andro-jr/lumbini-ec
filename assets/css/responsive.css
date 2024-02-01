@@ -488,6 +488,17 @@
     width: 60px;
     height: 60px;
   }
+  .contact-box {
+    flex-direction: column;
+  }
+  .contact-box .address_info {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-box {
+    padding: 0;
+    margin: 10px;
+  }
 }
 @media (max-width: 767px) {
   section {
@@ -758,6 +769,9 @@
   }
   .image-display-box img {
     height: auto;
+  }
+  .contact-form-row {
+    flex-direction: column;
   }
 }
 
