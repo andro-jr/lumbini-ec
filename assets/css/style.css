@@ -1445,7 +1445,6 @@ ul.team_social li a:hover {
 .contact-box .address_info {
   width: fit-content;
   margin-left: -50px;
-  padding-right: 60px;
   border-radius: 0;
   position: relative;
   overflow: hidden;
@@ -1478,7 +1477,25 @@ ul.team_social li a:hover {
   background: white;
 }
 .contact-box .c_info {
+  margin: 0;
   margin-bottom: 20px;
+}
+.contact-box .c_info p {
+  margin-bottom: 0;
+  width: 80%;
+}
+.contact-box .c_info p a {
+  display: block;
+}
+.contact-box .c_info li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 24px !important;
+  padding-left: 0;
+}
+.contact-box ul.c_info li i {
+  position: static;
 }
 
 .contact-box .contact-form {
@@ -2620,4 +2637,86 @@ h5 {
   padding: 0.75rem;
   vertical-align: middle;
   border-top: 1px solid #dee2e6;
+}
+
+.contact-box ul.c_info li:first-child {
+  line-height: auto;
+}
+
+.contact-box .c_info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-socials a {
+  color: white;
+}
+
+.news_sec .news_info {
+  background: transparent;
+  box-shadow: none;
+}
+
+.news_sec .news_info .detail {
+  padding-left: 0;
+}
+
+.news_sec .news_info .news_img img {
+  border-radius: 0;
+}
+
+.news_sec .date-label {
+  color: #007bff;
+  font-size: 12px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.news_sec .news_info .news_img label {
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.owl-stage .story_block.other-course img {
+  height: 150px;
+}
+
+.single-event-block img {
+  height: auto;
+}
+
+.other-post-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.other-post-box img {
+  width: 25%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.other-post-box .post-details h6 a {
+  color: black;
+}
+.other-post-box:not(:last-child) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+.archive-event-card {
+  height: 90%;
+}
+.archive-event-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.archive-event-card .card-body .btn-block {
+  margin-top: auto;
 }
